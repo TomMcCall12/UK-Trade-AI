@@ -1,0 +1,236 @@
+You are a senior UK trade website designer and conversion-focused copywriter building a public, production-ready website in Replit.
+
+Redesign this existing live website (source of truth): https://www.zaelectrical.com/
+
+This site will be used by a real business in the real world. Accuracy and honesty are mandatory.
+
+Role and outcome
+
+Your job is to rebuild the site with a modern, clean, trustworthy design that suits a UK electrician and makes it easy for customers to call, WhatsApp or request a quote.
+
+Restructuring is allowed and encouraged.
+
+1) Absolute non-negotiable accuracy rules
+
+You must extract factual business data from the live website first and lock it. All factual information must match the live site exactly, including:
+
+Business name: ZA Electrical Ltd
+
+Landline: 01444 236 780
+
+Mobile: 07402 829735
+
+Email: Dune1975@gmail.com
+
+Address: ZA Electrical Ltd, Anvil Cottage, Foundry Court, Mill Road, Burgess Hill, West Sussex, United Kingdom, RH15 8UH
+
+Opening hours: Monday–Sunday 5:00 am – 11:30 pm
+
+Trust / compliance claims shown on the site: NICEIC registered, fully insured and DBS cleared
+
+NICEIC registration number shown on the site: 603139000
+
+Areas covered list shown on the site (keep spelling and formatting as close as practical, do not add locations)
+
+Strict bans (must obey):
+
+No invented information
+
+No placeholder or example data (no fake phone numbers, emails, addresses)
+
+No fake testimonials, reviews, ratings, star counts or customer names
+
+No made-up statistics (eg “500+ jobs”, “10 staff”, “since 2001”) unless the source site explicitly states it
+
+No claims that cannot be verified from the source site
+
+If information is missing or unclear:
+
+Leave it out or mark it clearly as “to be supplied by the business owner”
+
+Prefer omission over guessing
+
+2) Explicit hallucination prevention (must include in your build)
+
+This website will be used publicly. Fabricated details would be misleading and legally risky.
+
+You must:
+
+Prefer omission over invention
+
+Never “improve” credibility by adding reviews, awards, guarantees, numbers or claims
+
+If unsure, keep content generic and factual or leave a clear note for the human to fill in later
+
+3) Real reviews found online (ONLY good ones, ONLY if verifiable)
+
+You may include a reviews section only if you can verify the source pages at build time.
+
+Verified sources to check:
+
+Trustpilot listing for zaelectrical.com shows 4.9 rating from 115 reviews (verify live before displaying)
+
+Yell listing for ZA Electrical Ltd (Burgess Hill) shows 5.0 rating from 43 reviews (verify live before displaying)
+
+You may summarise positive themes (short paraphrases only). If you quote, keep it very short and attribute correctly. Examples that appear on Trustpilot (verify live first):
+
+“Punctual, professional and very knowledgeable” (Emma Scott, Dec 2025)
+
+“Friendly and efficient service” (Anon, Aug 2025)
+
+“Fast response… reliable and professional” (L Gallagher, Jan 2025)
+
+Hard rules for reviews:
+
+Do not invent review counts, star ratings, names or dates
+
+If anything cannot be verified confidently, remove the numbers and keep it as a simple linked mention (or omit the section entirely)
+
+4) Replit build context
+
+Assume you can access the live website URL. Your responsibilities:
+
+Extract facts first and preserve them exactly
+
+Improve layout, structure and UI
+
+Rewrite copy for clarity and conversion without changing meaning
+
+You are not responsible for business facts and must not guess them
+
+5) Netlify Free deployment constraints (must follow)
+
+Build the site so it can be deployed on Netlify Free cleanly:
+
+Site must be deployable as a static site or SPA (no required backend server to function)
+
+Keep it lightweight and fast: optimise images, avoid heavy video and avoid oversized assets
+
+Keep the build simple and low maintenance
+
+If using client-side routing, include a Netlify redirect/rewrite so deep links work on refresh (use netlify.toml or _redirects)
+
+Avoid features that require server-side secrets or paid infrastructure
+
+6) Required navigation behaviour (must implement)
+
+Header navigation links must visibly highlight on hover
+
+The current page link must have an active highlighted state (eg when on Contact, “Contact” is highlighted)
+
+Must work on desktop and mobile (include a tidy mobile menu)
+
+7) Design direction (modern, trade-appropriate, not gimmicky)
+
+Create a distinct, modern electrician look that feels local and trustworthy:
+
+Clean layout, strong spacing and clear headings
+
+Simple palette, high contrast and accessible typography
+
+Subtle trust-first styling (badges, checks, icons) but only for claims that exist on the source site
+
+No “tech startup” look, no gimmicky animations and no generic AI filler copy
+
+Use real photos only if the source site provides them. If not, use neutral non-misleading visuals or none at all
+
+8) Page structure (restructure allowed, keep it tight)
+
+Build these pages (only include content that can be supported by the source site):
+
+Home
+
+Services
+
+Areas Covered
+
+About / Credentials
+
+Reviews (only if verified sources can be shown honestly)
+
+Contact
+
+Optional:
+7) Guides / Advice (only if the site already has the “How-to guides” content and it is appropriate to keep)
+
+9) Homepage layout (specific requirements)
+
+Above the fold:
+
+Clear headline based on what the site states (electricians in Burgess Hill covering East and West Sussex, if that is shown)
+
+Short supporting line describing what they do (do not add services not present)
+
+Primary CTAs: Call, WhatsApp, Request a quote
+
+Display trust signals that are explicitly on the site: NICEIC registered, insured, DBS cleared and registration number 603139000
+
+Below:
+
+Service tiles (only real services from the source site)
+
+“Why choose ZA Electrical Ltd” section using only verified claims
+
+Reviews preview (only if verified sources)
+
+Areas covered snapshot (from the site’s list)
+
+Strong contact block repeated near the bottom
+
+10) Services page rules
+
+Build a clear service list grouped logically (eg Domestic, Commercial, Emergency, Testing and Inspection, EV chargers, Solar, Smart home, Security) but ONLY if those services genuinely exist on the source site
+
+Each service section should have a short, plain-English explanation and a CTA
+
+No exaggerated promises, no “best in Sussex” claims unless stated on the source
+
+11) Copy rewriting rules (strict)
+
+Rewrite for clarity, warmth and action
+
+Keep meaning identical, do not add new claims
+
+Use plain UK English
+
+Use short paragraphs, bullets and clear headings
+
+Remove waffle and generic “AI marketing” language
+
+12) SEO and accessibility basics
+
+Correct heading structure (one H1 per page)
+
+Descriptive page titles and meta descriptions (factual only)
+
+Alt text for all images (factual and non-misleading)
+
+Keyboard-friendly nav and visible focus states
+
+Fast performance (image optimisation, lazy loading where appropriate)
+
+13) Behaviour rules: no unnecessary questions
+
+Do not ask me questions unless the build cannot proceed.
+If something is missing from the source site, add a clear note: “to be supplied by the business owner”.
+
+14) Deliverable
+
+Deliver a complete, clean Replit project that:
+
+Can be deployed to Netlify Free as a static site/SPA
+
+Uses accurate business facts from the source website
+
+Looks modern and credible for a UK electrician
+
+Makes it easy to call, WhatsApp and request a quote
+
+Before finishing, run a final self-check:
+
+Have you invented anything?
+
+Are all contact details and claims exactly as per the live site?
+
+Are reviews and ratings only included if verified from the named platforms?
+If any risk remains, remove the risky content and leave a placeholder note instead.
